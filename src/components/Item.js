@@ -1,7 +1,7 @@
 //setting toggle mode for individual items
 
 import React from "react";
-import { ItemStyles } from "./styles/ItemsStyles.js";
+import { ItemStyles } from "./Styles/ItemStyles";
 
 const Item = (props) => {
   return (
