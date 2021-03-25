@@ -6,13 +6,17 @@ import { ItemStyles } from "./Styles/ItemStyles";
 const Item = (props) => {
 
   return (
-    <ItemStyles
+    <ItemStyles>
+    <ul>
+    <li
       className={`item${props.item.completed ?  " completed" : ""}`}
       onClick={() =>
         props.dispatch({ type: "TOGGLE_COMPLETED", payload: props.item.id})
         
       }  >
       {props.item.item}
+      </li>
+      </ul>
     </ItemStyles>
   );
 };

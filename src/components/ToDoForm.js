@@ -11,19 +11,22 @@ const TodoForm = (props) => {
     setNewItem("");
   };
   return (
-    <form>
-      <input
-        className="item-input"
-        type="text"
-        name="item"
-        value={newItem}
-        onChange={handleChanges}
-        placeholder="Add Item"
-      />
-      <button className="add-btn" onClick={handleSubmit}>
-        Add
-      </button>
-    </form>
+    <div className="form">
+      <h1>To Do</h1>
+      <form>
+        <input
+          className="item-input"
+          type="text"
+          name="item"
+          value={newItem}
+          onChange={handleChanges}
+          placeholder="Add Item"
+        />
+        <button className="add-btn" onClick={handleSubmit}>
+          Add
+        </button>
+      </form>
+    </div>
   );
 };
 

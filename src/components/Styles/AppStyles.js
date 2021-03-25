@@ -8,9 +8,10 @@ export const AppStyles = styled.div`
   .fullToDoList {
     display: flex;
     flex-direction: column;
-    padding: 2%;
+    align-items: center;
+    justify-content:space-evenly;
     width: 40%;
-    height:40vh;
+    height: 60vh;
     margin-top: 5%;
     margin-bottom: 20%;
     background-color: #feff9c;

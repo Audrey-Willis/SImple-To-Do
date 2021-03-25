@@ -2,6 +2,11 @@ import styled from "styled-components";
 
 export const ItemStyles = styled.div`
   margin: 2%;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-family: "Montserrat Alternates", sans-serif;
+  margin:2%;
+  :hover{
+    transform:scale(1.1);
+    cursor:pointer;
+  }
 `;

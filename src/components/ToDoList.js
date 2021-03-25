@@ -4,7 +4,6 @@ import Item from "./Item";
 const ToDoList = (props) => {
   return (
     <div>
-      <h1>To Do</h1>
       {props.state.todos.map((item) => {
         return <Item key={item.id} dispatch={props.dispatch} item={item}/>;
       })}
