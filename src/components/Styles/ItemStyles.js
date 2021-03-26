@@ -5,6 +5,7 @@ export const ItemStyles = styled.div`
   font-size: 1.5rem;
   font-family: "Montserrat Alternates", sans-serif;
   margin:2%;
+  color:black;
   :hover{
     transform:scale(1.1);
     cursor:pointer;

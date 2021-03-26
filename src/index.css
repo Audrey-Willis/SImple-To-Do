@@ -5,8 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #3f5c00;
-background-image: url("https://www.transparenttextures.com/patterns/textured-paper.png");
+  background-image:url("https://i.ibb.co/fN8X7FF/textured-paper-1920x1080-2.png");
  font-family: "Permanent Marker", cursive;
 
 }
@@ -17,4 +16,7 @@ background-image: url("https://www.transparenttextures.com/patterns/textured-pap
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.fullToDoList{
+  background-image: url("https://i.ibb.co/zRYT8xt/textured-paper-1920x1080-1.png");
 }

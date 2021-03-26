@@ -5,18 +5,18 @@ export const AppStyles = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding:10%;
+  color:white;
+  text-shadow:.5px .5px black;
   .fullToDoList {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content:space-evenly;
-    width: 40%;
+    width: 50%;
     height: 60vh;
     margin-top: 5%;
     margin-bottom: 20%;
-    background-color: #feff9c;
-    background-image: url("https://www.transparenttextures.com/patterns/
-    textured-paper.png");
     box-shadow: 15px 15px black;
   }
   p {
@@ -24,6 +24,13 @@ export const AppStyles = styled.div`
     text-align: center;
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: bold;
+  }
+  h2{
+    color:black;
+    text-shadow:.4px .4px white;
+  }
+ .fullToDoList h1{
+    color:black;
   }
   @media (max-width: 800px) {
     .fullToDoList {
