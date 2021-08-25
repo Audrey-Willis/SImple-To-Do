@@ -12,5 +12,7 @@ export const ItemStyles = styled.div`
   }
   @media(max-width:500px){
     font-size:1rem;
+    width:90%;
+    text-align:center;
   }
 `;

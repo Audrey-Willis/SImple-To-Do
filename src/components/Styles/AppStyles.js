@@ -23,7 +23,7 @@ export const AppStyles = styled.div`
     width: 40%;
     text-align: center;
     font-family: "Montserrat Alternates", sans-serif;
-    font-weight: bold;
+    color:black;
   }
   h2{
     color:black;
